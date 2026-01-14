@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thatoe Zaw | Incident Coordinator</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+body {
+font-family: 'Inter', sans-serif;
+}
+.mono {
+font-family: 'JetBrains Mono', monospace;
+}
+.incident-card:hover .status-pulse {
+animation: pulse 1s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+@keyframes pulse {
+0%, 100% { opacity: 1; }
+50% { opacity: .3; }
+}
+</style>
+</head>
+<body class="bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100 transition-colors duration-300">
+
+<!-- Navigation -->
+<nav class="fixed top-0 w-full z-50 bg-white/80 dark:bg-slate-900/80 backdrop-blur-md border-b border-slate-200 dark:border-slate-800">
+<div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+<div class="flex items-center gap-2">
+<div class="w-3 h-3 bg-emerald-500 rounded-full status-pulse"></div>
+<span class="font-bold tracking-tight mono text-sm uppercase">Thatoe_Zaw // Bangkok, TH</span>
+</div>
+<div class="hidden md:flex gap-8 text-sm font-medium">
+<a href="#metrics" class="hover:text-emerald-500 transition-colors">Metrics</a>
+<a href="#experience" class="hover:text-emerald-500 transition-colors">Experience</a>
+<a href="#skills" class="hover:text-emerald-500 transition-colors">Skills</a>
+<a href="#contact" class="px-4 py-2 bg-slate-900 dark:bg-emerald-600 text-white rounded-lg hover:opacity-90 transition-all">Contact</a>
+</div>
+</div>
+</nav>
+
+<!-- Hero Section -->
+<section class="pt-32 pb-20 px-6">
+<div class="max-w-6xl mx-auto">
+<div class="grid lg:grid-cols-2 gap-12 items-center">
+<div>
+<h2 class="text-emerald-600 dark:text-emerald-400 font-bold mono text-sm mb-4">SYSTEM STABILITY SPECIALIST</h2>
+<h1 class="text-5xl md:text-7xl font-bold leading-tight mb-6">
+Thatoe Zaw <br/><span class="text-slate-400 text-4xl md:text-6xl"> Incident Coordinator </span>
+</h1>
+<p class="text-lg text-slate-600 dark:text-slate-400 mb-8 max-w-lg leading-relaxed">
+Specialized in managing high-priority incidents at Allianz Technology. Expert in troubleshooting coordination, RCA, and stakeholder communication for global enterprise systems.
+</p>
+<div class="flex flex-wrap gap-4">
+<div class="flex items-center gap-2 px-4 py-2 bg-emerald-100 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-400 rounded-full text-sm font-semibold border border-emerald-200 dark:border-emerald-800">
+ITIL 4 Certified
+</div>
+<div class="flex items-center gap-2 px-4 py-2 bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-400 rounded-full text-sm font-semibold border border-blue-200 dark:border-blue-800">
+AWS/GCP Trained
+</div>
+</div>
+</div>
+<div class="relative">
+<div class="bg-slate-900 rounded-2xl p-6 shadow-2xl border border-slate-800 mono text-xs text-emerald-400 overflow-hidden">
+<div class="flex gap-2 mb-4 border-b border-slate-800 pb-2">
+<div class="w-3 h-3 rounded-full bg-red-500"></div>
+<div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+<div class="w-3 h-3 rounded-full bg-green-500"></div>
+</div>
+<div class="space-y-2">
+<p class="text-slate-500">// Terminal: Allianz_Ops_Center</p>
+<p class="text-red-400">[CRITICAL] Major Incident Triggered</p>
+<p>Triage: Coordinating troubleshooting across teams...</p>
+<p class="text-blue-400">Stakeholder notification sent via ServiceNow</p>
+<p>Analyzing root cause to prevent recurrence...</p>
+<p class="text-yellow-400">Action: Implement process improvements</p>
+<p class="text-emerald-400">Status: RESOLVED // SLA COMPLIANT</p>
+<p class="animate-pulse">_</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Key Metrics Section -->
+<section id="metrics" class="py-20 bg-slate-100 dark:bg-slate-900">
+<div class="max-w-6xl mx-auto px-6">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+<div class="text-center">
+<div class="text-4xl font-bold text-emerald-600 mb-2">P1/P2</div>
+<p class="text-sm text-slate-500 dark:text-slate-400 uppercase font-semibold tracking-wider">Priority Focus</p>
+</div>
+<div class="text-center">
+<div class="text-4xl font-bold text-emerald-600 mb-2">SLA</div>
+<p class="text-sm text-slate-500 dark:text-slate-400 uppercase font-semibold tracking-wider">Compliance Driven</p>
+</div>
+<div class="text-center">
+<div class="text-4xl font-bold text-emerald-600 mb-2">100%</div>
+<p class="text-sm text-slate-500 dark:text-slate-400 uppercase font-semibold tracking-wider">RCA Completion</p>
+</div>
+<div class="text-center">
+<div class="text-4xl font-bold text-emerald-600 mb-2">CCNA</div>
+<p class="text-sm text-slate-500 dark:text-slate-400 uppercase font-semibold tracking-wider">Network Fundamentals</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Experience Timeline -->
+<section id="experience" class="py-24 px-6 bg-white dark:bg-slate-950">
+<div class="max-w-4xl mx-auto">
+<div class="mb-16">
+<h2 class="text-3xl font-bold mb-4">Professional Journey</h2>
+<div class="w-20 h-1.5 bg-emerald-500 rounded-full"></div>
+</div>
+
+<div class="space-y-12 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-300 dark:before:via-slate-700 before:to-transparent">
+
+<!-- Allianz Technology -->
+<div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+<div class="flex items-center justify-center w-10 h-10 rounded-full border-4 border-white dark:border-slate-950 bg-emerald-500 text-white shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+</div>
+<div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] p-6 rounded-xl border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900/50 hover:border-emerald-500 transition-colors">
+<div class="flex flex-col mb-4">
+<span class="mono text-xs font-bold text-emerald-500 mb-1">JUNE 2022 – PRESENT</span>
+<h3 class="font-bold text-lg text-slate-900 dark:text-white leading-tight">Advanced Incident Coordinator</h3>
+<span class="text-slate-500 dark:text-slate-400 text-sm font-semibold">Allianz Technology, Bangkok</span>
+</div>
+<ul class="text-sm text-slate-600 dark:text-slate-400 space-y-2 list-disc ml-4">
+<li>Managed and resolved high-priority incidents to minimize business disruption.</li>
+<li>Coordinated troubleshooting efforts across multiple technical teams.</li>
+<li>Conducted detailed Root Cause Analyses (RCA) and post-incident reviews.</li>
+<li>Maintained SLA compliance using ServiceNow tracking.</li>
+</ul>
+</div>
+</div>
+
+<!-- DaNa Facility -->
+<div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+<div class="flex items-center justify-center w-10 h-10 rounded-full border-4 border-white dark:border-slate-950 bg-blue-500 text-white shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+</div>
+<div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] p-6 rounded-xl border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900/50 hover:border-blue-500 transition-colors">
+<div class="flex flex-col mb-4">
+<span class="mono text-xs font-bold text-blue-500 mb-1">MAR 2018 – OCT 2020</span>
+<h3 class="font-bold text-lg text-slate-900 dark:text-white leading-tight">IT Support Technician</h3>
+<span class="text-slate-500 dark:text-slate-400 text-sm font-semibold">DaNa Facility (via MTG), Yangon</span>
+</div>
+<ul class="text-sm text-slate-600 dark:text-slate-400 space-y-2 list-disc ml-4">
+<li>Network and hardware troubleshooting for on-site and off-site users.</li>
+<li>Maintained server backups and ensured data recovery processes.</li>
+</ul>
+</div>
+</div>
+
+<!-- Galaxy Software -->
+<div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+<div class="flex items-center justify-center w-10 h-10 rounded-full border-4 border-white dark:border-slate-950 bg-slate-400 text-white shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+</div>
+<div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] p-6 rounded-xl border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900/50">
+<div class="flex flex-col mb-4">
+<span class="mono text-xs font-bold text-slate-500 mb-1">OCT 2017 – FEB 2018</span>
+<h3 class="font-bold text-lg text-slate-900 dark:text-white leading-tight">Software Support Engineer</h3>
+<span class="text-slate-500 dark:text-slate-400 text-sm font-semibold">Galaxy Software, Yangon</span>
+</div>
+<p class="text-sm text-slate-600 dark:text-slate-400">Resolved software errors, conducted user training, and configured PC databases for onboarding.</p>
+</div>
+</div>
+
+<!-- Myanmar Tech Gateway -->
+<div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+<div class="flex items-center justify-center w-10 h-10 rounded-full border-4 border-white dark:border-slate-950 bg-slate-600 text-white shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path></svg>
+</div>
+<div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] p-6 rounded-xl border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900/50">
+<div class="flex flex-col mb-4">
+<span class="mono text-xs font-bold text-slate-500 mb-1">JUL 2015 – MAR 2018</span>
+<h3 class="font-bold text-lg text-slate-900 dark:text-white leading-tight">Technical Support</h3>
+<span class="text-slate-500 dark:text-slate-400 text-sm font-semibold">Myanmar Technology Gateway</span>
+</div>
+<p class="text-sm text-slate-600 dark:text-slate-400">Supported DNS and mail server operations. Addressed multi-site IT issues onsite and remotely.</p>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- Skillset / Toolkit -->
+<section id="skills" class="py-24 px-6 bg-slate-50 dark:bg-slate-900/30">
+<div class="max-w-6xl mx-auto">
+<div class="mb-16">
+<h2 class="text-3xl font-bold mb-4">Core Competencies</h2>
+<div class="w-20 h-1.5 bg-emerald-500 rounded-full"></div>
+</div>
+
+<div class="grid md:grid-cols-3 gap-8">
+<!-- Management -->
+<div class="p-8 bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 hover:shadow-lg transition-all">
+<div class="w-12 h-12 bg-emerald-100 dark:bg-emerald-900/50 rounded-lg flex items-center justify-center mb-6 text-emerald-600">
+<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+</div>
+<h3 class="text-xl font-bold mb-3">Incident & Problem</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed mb-4">Management of critical service lifecycles, ensuring business continuity through expert coordination.</p>
+<div class="flex flex-wrap gap-2">
+<span class="text-[10px] px-2 py-1 bg-slate-100 dark:bg-slate-700 rounded uppercase font-bold">ITIL v4</span>
+<span class="text-[10px] px-2 py-1 bg-slate-100 dark:bg-slate-700 rounded uppercase font-bold">RCA</span>
+<span class="text-[10px] px-2 py-1 bg-slate-100 dark:bg-slate-700 rounded uppercase font-bold">SLA Compliance</span>
+</div>
+</div>
+
+<!-- Technical Tools -->
+<div class="p-8 bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 hover:shadow-lg transition-all">
+<div class="w-12 h-12 bg-blue-100 dark:bg-blue-900/50 rounded-lg flex items-center justify-center mb-6 text-blue-600">
+<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+</div>
+<h3 class="text-xl font-bold mb-3">Ecosystem & Stack</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed mb-4">Proficient in modern ITSM tools and fundamental network infrastructure.</p>
+<div class="flex flex-wrap gap-2">
+<span class="text-[10px] px-2 py-1 bg-slate-100 dark:bg-slate-700 rounded uppercase font-bold">ServiceNow</span>
+<span class="text-[10px] px-2 py-1 bg-slate-100 dark:bg-slate-700 rounded uppercase font-bold">JIRA</span>
+<span class="text-[10px] px-2 py-1 bg-slate-100 dark:bg-slate-700 rounded uppercase font-bold">CCNA</span>
+</div>
+</div>
+
+<!-- Integration -->
+<div class="p-8 bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 hover:shadow-lg transition-all">
+<div class="w-12 h-12 bg-purple-100 dark:bg-purple-900/50 rounded-lg flex items-center justify-center mb-6 text-purple-600">
+<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"></path></svg>
+</div>
+<h3 class="text-xl font-bold mb-3">APIs & Data</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed mb-4">Understanding of web services and data formats for technical triage.</p>
+<div class="flex flex-wrap gap-2">
+<span class="text-[10px] px-2 py-1 bg-slate-100 dark:bg-slate-700 rounded uppercase font-bold">SOAP/REST</span>
+<span class="text-[10px] px-2 py-1 bg-slate-100 dark:bg-slate-700 rounded uppercase font-bold">JSON/XML</span>
+<span class="text-[10px] px-2 py-1 bg-slate-100 dark:bg-slate-700 rounded uppercase font-bold">AWS/GCP</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Contact CTA -->
+<section id="contact" class="py-24 px-6 bg-emerald-600">
+<div class="max-w-4xl mx-auto text-center text-white">
+<h2 class="text-4xl font-bold mb-6">Let's Connect</h2>
+<p class="text-xl text-emerald-100 mb-10 leading-relaxed">Currently based in Bangkok. Open to discussing service operations leadership and incident management strategy.</p>
+<div class="flex flex-col sm:flex-row gap-4 justify-center">
+<a href="mailto:thatoezaw0009@gmail.com" class="px-8 py-4 bg-white text-emerald-600 rounded-xl font-bold hover:bg-slate-100 transition-all flex items-center justify-center gap-2">
+<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path></svg>
+Email Thatoe
+</a>
+<div class="px-8 py-4 bg-emerald-700 text-white rounded-xl font-bold border border-emerald-500 flex items-center justify-center gap-2">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
++66 809 430 231
+</div>
+</div>
+</div>
+</section>
+
+<!-- Footer -->
+<footer class="py-12 bg-slate-100 dark:bg-slate-950 px-6 border-t border-slate-200 dark:border-slate-900">
+<div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+<div class="mono text-sm text-slate-500">
+&copy; 2024 Thatoe Zaw // System Status: <span class="text-emerald-500">Operational</span>
+</div>
+<div class="flex gap-6 items-center">
+<span class="text-xs font-bold uppercase tracking-widest text-slate-400">Bangkok, Thailand</span>
+</div>
+</div>
+</footer>
+
+<script>
+// Smooth scrolling for navigation links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+</script>
+</body>
+</html>
